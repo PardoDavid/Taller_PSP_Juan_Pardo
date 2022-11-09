@@ -34,7 +34,7 @@ body{
 .cont{    
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 .caja{    
     width: 80%;
@@ -44,6 +44,7 @@ body{
 .valor{
     font-size: 23px;
     font-weight: bold;
+    text-align: center;
 }
 #apos{
     width: 210px;
@@ -62,6 +63,12 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+#reset-button{
+    width: 224px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
 }
 
 @media screen and (min-width:1024px ){
@@ -72,15 +79,17 @@ body{
     .cont{    
         display: flex;
         justify-content: center;
-        padding-top: 200px;
+        padding-top: 110px;        
     }
     .caja{    
        padding: 50px;
         background-color: rgb(179, 179, 179);
+        border-radius: 50px;
     }
     .valor{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
+        text-align: center;
     }
     #apos{
         width: 465px;
@@ -95,6 +104,13 @@ body{
     #sello{
         width: 233px;
         height: 50px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #reset-button{
+        width: 233px;
+        height: 50px;        
+        margin-left: 120px;
         font-size: 25px;
         font-weight: bold;
     }
